@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Creme | Opening Soon - Joy in Every Scoop</title>
+    <meta name="description" content="Get ready for Sweet Creme. A high-energy ice cream experience launching soon. Discover our vibrant flavors and join the scoop revolution.">
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Lilita One for playful headers, Quicksand for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: 'Quicksand', sans-serif; }
+        h1, h2, h3 { font-family: 'Lilita One', cursive; }
+        .bg-cream { background-color: #FFF9F0; }
+        .text-berry { color: #FF4D8D; }
+        .bg-berry { background-color: #FF4D8D; }
+        .bg-mint { background-color: #A7F3D0; }
+        .float-animation { animation: float 3s ease-in-out infinite; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-cream text-gray-800 overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+        <!-- Decorative Background Shapes -->
+        <div class="absolute top-10 left-10 w-32 h-32 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+        <div class="absolute bottom-20 right-10 w-48 h-48 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+        
+        <nav class="absolute top-0 w-full py-8 flex justify-center">
+            <div class="text-3xl font-bold text-berry tracking-tighter">SWEET CREME</div>
+        </nav>
+
+        <main class="z-10 mt-12">
+            <div class="inline-block px-4 py-1 mb-6 border-2 border-berry text-berry rounded-full font-bold text-sm tracking-widest uppercase">
+                Summer 2024
+            </div>
+            <h1 class="text-6xl md:text-8xl lg:text-9xl text-berry leading-none mb-6 float-animation">
+                OPENING <br>SOON
+            </h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto text-gray-600 font-medium">
+                We're churning up something vibrant, joyful, and dangerously delicious. The scoop of your dreams is almost here.
+            </p>
+            <div class="mt-10">
+                <a href="#flavors" class="bg-berry text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-pink-600 transition-transform hover:scale-105 inline-block shadow-lg">
+                    See the Teasers
+                </a>
+            </div>
+        </main>
+    </header>
+
+    <!-- Flavor Teaser Gallery -->
+    <section id="flavors" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl text-gray-900 mb-4">First Look: The Launch Lineup</h2>
+                <p class="text-lg text-gray-500">Four bold flavors. Zero boring bites.</p>
+            </div>
+
+            <div
